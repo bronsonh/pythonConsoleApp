@@ -10,7 +10,7 @@ def optionMenuFunct(): #Create a function to be called for the option menu
         print("Choose an option:\n%s\n%s\n" % ("1, The very basic calculator", "2, NotSureYet"))#Give the user some options to choose from
         option = int(input("Please enter a number: ")) #Get the input from the user and make it an integer
 
-        if option == 1: #If the user presses 1 go to the calculator function
+        if option == 1: #If the userh presses 1 go to the calculator function
             print("hi")
 
         elif option == 5: #Clear the Console and reload the option menu
